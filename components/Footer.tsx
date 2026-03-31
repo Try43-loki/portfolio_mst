@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-white/[0.07] py-7 flex flex-col sm:flex-row items-center justify-between gap-4 animate-fade-up-4">
       <span className="font-mono text-[11px] tracking-[0.08em] text-[#7a7870]">
-        © 2026 Mey Soytry — Frontend Developer
+        © 2026 MEY Soytry — Frontend Developer
       </span>
 
       <div className="flex items-center gap-5">

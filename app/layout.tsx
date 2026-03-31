@@ -22,26 +22,28 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Mey Soytry — Frontend Developer & Data Analyst",
+  title: "MEY Soytry - Portfolio",
   description:
-    "Portfolio of Mey Soytry — Frontend Developer & Data Analyst from Phnom Penh, Cambodia. Building fast, elegant web apps with Next.js, React, TypeScript, and modern tooling.",
+    "Portfolio of MEY Soytry — Frontend Developer & Data Analyst from Phnom Penh, Cambodia. Building fast, elegant web apps with Next.js, React, TypeScript, and modern tooling.",
   keywords: [
-    "Mey Soytry", "Frontend Developer", "Data Analyst",
+    "MEY Soytry", "Mey Soytry", "Frontend Developer", "Data Analyst",
     "Next.js", "React", "TypeScript", "Cambodia", "Phnom Penh",
   ],
-  authors: [{ name: "Mey Soytry" }],
+  authors: [{ name: "MEY Soytry" }],
+  metadataBase: new URL("https://portfolio-mst-six.vercel.app"),
   openGraph: {
-    title: "Mey Soytry — Frontend Developer & Data Analyst",
+    title: "MEY Soytry - Portfolio",
     description:
-      "Portfolio of Mey Soytry — Frontend Developer & Data Analyst from Phnom Penh, Cambodia.",
+      "Portfolio of MEY Soytry — Frontend Developer & Data Analyst from Phnom Penh, Cambodia.",
     type: "website",
-    siteName: "Mey Soytry Portfolio",
+    url: "https://portfolio-mst-six.vercel.app",
+    siteName: "MEY Soytry Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mey Soytry — Frontend Developer & Data Analyst",
+    title: "MEY Soytry - Portfolio",
     description:
-      "Portfolio of Mey Soytry — Frontend Developer & Data Analyst from Phnom Penh, Cambodia.",
+      "Portfolio of MEY Soytry — Frontend Developer & Data Analyst from Phnom Penh, Cambodia.",
   },
 };
 

@@ -1,5 +1,5 @@
 export const profile = {
-  name: "Mey Soytry",
+  name: "MEY Soytry",
   role: "Frontend Developer",
   tagline: "Frontend Developer & Data Analyst",
   bio: "Hi, I'm Soytry — I build user-friendly web applications with modern technologies. Experienced as a Frontend Team Lead, I enjoy leveraging AI and new tools to create fast, elegant, and effective digital solutions.",
@@ -102,6 +102,23 @@ export const languages = [
 
 // Sign up free at formspree.io → New Form → copy your form ID here
 export const formspreeId = "YOUR_FORM_ID";
+
+export const testimonials = [
+  {
+    quote:
+      "Soytry was one of the standout students in our program. Beyond his technical skills in Next.js and Spring Boot, what impressed me most was how he took ownership as a team lead — guiding his peers, making architecture decisions, and delivering a polished product under real deadlines.",
+    name: "Kim Jae-won",
+    title: "Software Development Instructor",
+    institution: "Korean Software HRD Center",
+  },
+  {
+    quote:
+      "Having Soytry as our frontend lead made a huge difference. He had a clear vision for the UI from day one, kept the team aligned when things got complicated, and always found a way to ship clean, working features. RippleEco wouldn't have looked the way it did without him.",
+    name: "Chea Dara",
+    title: "Full-Stack Developer",
+    institution: "Korean Software HRD Center",
+  },
+];
 
 export const skillProficiency = [
   { name: "Next.js / React", level: 90, category: "Frontend" },

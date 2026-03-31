@@ -65,7 +65,7 @@ export default function Navbar() {
           href="/"
           className="font-serif text-2xl font-bold tracking-tight text-[#f0ede6] no-underline"
         >
-          Mey{" "}
+          MEY{" "}
           <span className="italic text-[#c8a96e]">Soytry</span>
           <span className="inline-block w-1.5 h-1.5 rounded-full bg-[#c8a96e] ml-0.5 align-super" />
         </Link>

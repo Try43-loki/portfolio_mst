@@ -32,7 +32,7 @@ export default function ProfileCard() {
         {photoUrl ? (
           <Image
             src={photoUrl}
-            alt="Mey Soytry"
+            alt="MEY Soytry"
             fill
             className="object-cover"
           />

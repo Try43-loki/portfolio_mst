@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { profile } from "@/lib/data";
 
 export const runtime = "edge";
-export const alt = "Mey Soytry — Frontend Developer & Data Analyst";
+export const alt = "MEY Soytry — Frontend Developer & Data Analyst";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -141,7 +141,7 @@ export default async function Image() {
                 marginBottom: 20,
               }}
             >
-              Mey Soytry
+              MEY Soytry
             </div>
 
             {/* Title */}
