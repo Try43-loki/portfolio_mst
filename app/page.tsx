@@ -41,9 +41,9 @@ export default function Home() {
         <RevealOnScroll>
           <Projects />
         </RevealOnScroll>
-        <RevealOnScroll>
+        {/* <RevealOnScroll>
           <Testimonials />
-        </RevealOnScroll>
+        </RevealOnScroll> */}
         <RevealOnScroll>
           <Contact />
         </RevealOnScroll>

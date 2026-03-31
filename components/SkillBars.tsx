@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { skillProficiency } from "@/lib/data";
 
-const CATEGORY_ORDER = ["Frontend", "Data", "Backend"];
+const CATEGORY_ORDER = ["Frontend", "Data Analyst", "Backend"];
 
 const grouped = CATEGORY_ORDER.map((cat) => ({
   category: cat,

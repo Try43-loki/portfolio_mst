@@ -61,14 +61,14 @@ export default function Navbar() {
       <div className="max-w-[1280px] mx-auto px-4 sm:px-8 md:px-12 flex items-center justify-between py-6 md:py-7">
 
         {/* Logo */}
-        <Link
-          href="/"
-          className="font-serif text-2xl font-bold tracking-tight text-[#f0ede6] no-underline"
+        <button
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          className="font-serif text-2xl font-bold tracking-tight text-[#f0ede6] no-underline cursor-pointer"
         >
           MEY{" "}
           <span className="italic text-[#c8a96e]">Soytry</span>
           <span className="inline-block w-1.5 h-1.5 rounded-full bg-[#c8a96e] ml-0.5 align-super" />
-        </Link>
+        </button>
 
         {/* Desktop nav */}
         <div className="hidden md:flex items-center gap-4">

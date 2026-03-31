@@ -10,17 +10,48 @@ export const profile = {
 };
 
 export const techStack = [
-  { category: "Frontend", skills: ["Next.js", "React.js", "TypeScript", "JavaScript"] },
-  { category: "Styling", skills: ["TailwindCSS", "Shadcn/UI", "Web Design"] },
-  { category: "Animation", skills: ["Framer Motion", "GSAP"] },
-  { category: "Backend", skills: ["Java", "Spring Boot", "FastAPI"] },
-  { category: "Data", skills: ["SQL", "PostgreSQL", "TanStack Query", "Axios"] },
-  { category: "Tools", skills: ["Docker", "GitHub", "Power BI"] },
+  {
+    category: "Frontend",
+    skills: [
+      "Next.js",
+      "React.js",
+      "TypeScript",
+      "JavaScript",
+      "TanStack Query",
+      "TailwindCSS",
+      "Bootstrap",
+      "Shadcn/UI",
+      "NextUI",
+      "Framer Motion",
+      "GSAP",
+    ],
+  },
+  {
+    category: "Backend",
+    skills: ["Java", "Spring Boot", "FastAPI", "SQL", "PostgreSQL"],
+  },
+  {
+    category: "Data Analyst",
+    skills: [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Data Processing",
+      "Data Warehouse",
+      "ETL/ELT",
+      "Power BI",
+      "Power Query",
+      "Advanced Excel",
+    ],
+  },
+  { category: "Tools", skills: ["Docker", "Git"] },
 ];
 
 export const techTags = [
-  "Next.js", "React", "TypeScript", "TailwindCSS",
-  "Spring Boot", "GSAP", "PostgreSQL", "UI/UX Design",
+  "Frontend Developer",
+  "Backend Developer",
+  "Data Analyst",
+  "Data Warehouse",
 ];
 
 export const projects = [
@@ -31,9 +62,38 @@ export const projects = [
     subtitle: "AI Chatbot · Advanced Course Project",
     description:
       "A centralized AI-powered data analysis platform that enables non-technical users to interact with company data using natural language queries.",
-    stack: ["Next.js", "TypeScript", "Tailwind", "Shadcn", "Motion", "FastAPI", "LLMs", "Prophet Model", "PostgreSQL"],
+    stack: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "Shadcn",
+      "Motion",
+      "FastAPI",
+      "LLMs",
+      "Prophet Model",
+      "PostgreSQL",
+    ],
     role: "Design UX/UI · Implement Frontend & Backend · Train Prophet Model for Time Series Forecasting",
-    highlight: true,
+    highlight: false,
+    images: [
+      { src: "/projects/SQLyst/dashboard.png", label: "Dashboard" },
+      { src: "/projects/SQLyst/chat.png", label: "AI Chat" },
+      { src: "/projects/SQLyst/forcast.png", label: "Forecast" },
+      { src: "/projects/SQLyst/report.png", label: "Report" },
+    ],
+    details: {
+      overview:
+        "SQLyst is a centralized AI-powered analytics platform that lets non-technical users query company databases using plain English. It translates natural language into SQL, runs the query, and presents the results as interactive charts and summaries — no SQL knowledge required.",
+      highlights: [
+        "Natural language → SQL pipeline powered by LLMs for zero-code data querying",
+        "Prophet model integration for time series forecasting and trend analysis",
+        "Interactive dashboard with real-time charts, filters, and exportable reports",
+        "Multi-user access with role-based permissions for data security",
+        "FastAPI backend with async query execution for fast response times",
+      ],
+      github: null,
+      demo: null,
+    },
   },
   {
     id: "rippleeco",
@@ -42,9 +102,38 @@ export const projects = [
     subtitle: "Environmental Platform · Basic Course Project",
     description:
       "Environmental platform that empowers individuals to participate in eco-friendly events, make donations, and raise awareness about environmental issues to government.",
-    stack: ["Next.js", "JavaScript", "Tailwind", "Shadcn", "Spring Boot", "PostgreSQL", "Selenium", "Telegram Bot", "OneSignal"],
+    stack: [
+      "Next.js",
+      "JavaScript",
+      "Tailwind",
+      "Shadcn",
+      "Spring Boot",
+      "PostgreSQL",
+      "Selenium",
+      "Telegram Bot",
+      "OneSignal",
+    ],
     role: "Design UX/UI · Frontend Team Lead · Design Frontend Architecture · Testing · Implement Backend",
     highlight: false,
+    images: [
+      { src: "/projects/RippleEco/landing.png", label: "Landing" },
+      { src: "/projects/RippleEco/eco-event.png", label: "Events" },
+      { src: "/projects/RippleEco/air-quality.png", label: "Air Quality" },
+      { src: "/projects/RippleEco/discussion.png", label: "Discussion" },
+    ],
+    details: {
+      overview:
+        "RippleEco is a community-driven environmental platform built to bridge individuals, organizations, and government bodies. Users can join local eco-events, donate to environmental causes, and submit awareness reports directly to authorities — all in one place.",
+      highlights: [
+        "Eco-event discovery and registration with geolocation-based filtering",
+        "Donation system with campaign tracking and progress visualization",
+        "Government petition feature to report environmental issues with evidence",
+        "Automated environmental data scraping via Selenium for real-time updates",
+        "Push notifications through Telegram Bot and OneSignal for event reminders",
+      ],
+      github: null,
+      demo: null,
+    },
   },
 ];
 
@@ -59,13 +148,15 @@ export const education = [
     degree: "Advanced Course — Data Analytics",
     institution: "Korean Software HRD Center",
     period: "Jul – Dec 2025",
-    detail: "Data Engineering, ETL/ELT, Web Scraping, Python, Advanced Statistics, Power BI, Time Series Forecasting",
+    detail:
+      "Data Engineering, ETL/ELT, Web Scraping, Python, Advanced Statistics, Power BI, Time Series Forecasting",
   },
   {
     degree: "Basic Course — Software Development",
     institution: "Korean Software HRD Center",
     period: "Feb – Jul 2025",
-    detail: "Java, Spring Boot, Next.js, React, PostgreSQL, Docker, GitHub, UI/UX",
+    detail:
+      "Java, Spring Boot, Next.js, React, PostgreSQL, Docker, GitHub, UI/UX",
   },
   {
     degree: "High School Diploma",
@@ -92,7 +183,13 @@ export const experience = [
   },
 ];
 
-export const softSkills = ["Teamwork", "Responsibility", "Commitment", "Quick Learning", "Self Development"];
+export const softSkills = [
+  "Teamwork",
+  "Responsibility",
+  "Commitment",
+  "Quick Learning",
+  "Self Development",
+];
 
 export const languages = [
   { name: "Khmer", flag: "🇰🇭", level: "Mother tongue" },
@@ -121,14 +218,17 @@ export const testimonials = [
 ];
 
 export const skillProficiency = [
-  { name: "Next.js / React", level: 90, category: "Frontend" },
-  { name: "TypeScript", level: 85, category: "Frontend" },
-  { name: "TailwindCSS", level: 92, category: "Frontend" },
-  { name: "Data Analytics", level: 82, category: "Data" },
-  { name: "Power BI", level: 78, category: "Data" },
-  { name: "SQL / PostgreSQL", level: 80, category: "Data" },
+  { name: "Next.js / React.js", level: 90, category: "Frontend" },
+  { name: "TypeScript / JavaScript", level: 88, category: "Frontend" },
+  { name: "TailwindCSS / Bootstrap", level: 92, category: "Frontend" },
+  { name: "Framer Motion / GSAP", level: 78, category: "Frontend" },
   { name: "Spring Boot", level: 72, category: "Backend" },
   { name: "FastAPI", level: 70, category: "Backend" },
+  { name: "SQL / PostgreSQL", level: 80, category: "Backend" },
+  { name: "Python / Pandas / NumPy", level: 82, category: "Data Analyst" },
+  { name: "Power BI / Power Query", level: 80, category: "Data Analyst" },
+  { name: "ETL/ELT / Data Warehouse", level: 74, category: "Data Analyst" },
+  { name: "Advanced Excel", level: 85, category: "Data Analyst" },
 ];
 
 export const navLinks = [
@@ -141,7 +241,10 @@ export const navLinks = [
 
 export const social = [
   { label: "GitHub", href: "https://github.com/Try43-loki" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/soytry-mey-3a156b332" },
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/soytry-mey-3a156b332",
+  },
   { label: "Telegram", href: "https://t.me/Tryy43" },
   { label: "Facebook", href: "https://www.facebook.com/share/17WwDPdvqy/" },
 ];
